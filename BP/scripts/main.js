@@ -10,6 +10,15 @@ const SaphireStarUsage = {
 	}
 }
 
+const SaphireSwordAttack = {
+	onHitEntity(event) {
+		event.hitEntity.addEffect("slowness", 40, {
+			amplifier: 3
+		})
+	}
+}
+
 world.beforeEvents.worldInitialize.subscribe(({ itemComponentRegistry }) => {
 	itemComponentRegistry.registerCustomComponent("mcevery:saphirestaruse", SaphireStarUsage)
+	itemComponentRegistry.registerCustomComponent("mcevery:saphiresworduse", SaphireSwordAttack)
 })

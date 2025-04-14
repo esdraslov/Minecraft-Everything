@@ -15,14 +15,16 @@
 				"slot": "shovel",
 				"value": 10
 			},
-			"minecraft:digger": [
-				{
-					"block": {
-						"tags": "q.any_tag('minecraft:is_shovel_item_destructible')"
-					},
-					"speed": 6
-				}
-			]
+			"minecraft:digger": {
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('minecraft:is_shovel_item_destructible')"
+						},
+						"speed": 6
+					}
+				]
+			}
 		}
 	}
 }
