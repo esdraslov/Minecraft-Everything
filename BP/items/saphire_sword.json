@@ -30,7 +30,8 @@
 						"repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
 					}
 				]
-			}
+			},
+			"minecraft:custom_components": ["mcevery:saphiresworduse"]
 		}
 	}
 }
