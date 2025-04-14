@@ -42,7 +42,8 @@
 			},
 			"minecraft:display_name": {
 				"value": "item.esdraslov.mcevery.saphire_pickaxe.name"
-			}
+			},
+			"minecraft:custom_components": ["mcevery:saphirepickaxeuse"]
 		}
 	}
 }

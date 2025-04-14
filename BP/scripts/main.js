@@ -18,7 +18,19 @@ const SaphireSwordAttack = {
 	}
 }
 
+const SaphirePickaxeMine = {
+	onMineBlock(event) {
+		const source = event.source
+		if (source instanceof Player) {
+			source.addEffect("haste", 60, {
+				amplifier: 2
+			})
+		}
+	}
+}
+
 world.beforeEvents.worldInitialize.subscribe(({ itemComponentRegistry }) => {
 	itemComponentRegistry.registerCustomComponent("mcevery:saphirestaruse", SaphireStarUsage)
 	itemComponentRegistry.registerCustomComponent("mcevery:saphiresworduse", SaphireSwordAttack)
+	itemComponentRegistry.registerCustomComponent("mcevery:saphirepickaxeuse", SaphirePickaxeMine)
 })
