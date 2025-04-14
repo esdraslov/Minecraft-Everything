@@ -15,7 +15,7 @@
 			"textures": "textures/blocks/corrupted_grass_side"
 		},
 		"mcevery:corrupted_dirt": {
-			"textures": "textures/blocks/corrupted_grass_side"
+			"textures": "textures/blocks/corrupted_grass_bottom"
 		}
 	}
 }
