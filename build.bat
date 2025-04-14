@@ -1,0 +1,2 @@
+@adb push BP\ /sdcard/Android/data/com.mojang.minecraftpe/files/games/com.mojang/development_behavior_packs/
+@adb push RP\ /sdcard/Android/data/com.mojang.minecraftpe/files/games/com.mojang/development_resource_packs/

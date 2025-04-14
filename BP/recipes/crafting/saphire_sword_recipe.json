@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mcevery:saphire_sword_recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X",
+      "X",
+      "I"
+    ],
+    "key": {
+      "X": "mcevery:saphire",
+      "I": "minecraft:stick"
+    },
+    "result": "mcevery:saphire_sword",
+    "unlock": [
+      {
+        "item": "mcevery:saphire"
+      }
+    ]
+  }
+}

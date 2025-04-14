@@ -1,0 +1,21 @@
+{
+	"resource_pack_name": "mcevery",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"mcevery:stone_saphire_ore": {
+			"textures": "textures/blocks/stone_saphire_ore"
+		},
+		"mcevery:corrupted_grass_bottom": {
+			"textures": "textures/blocks/corrupted_grass_bottom"
+		},
+		"mcevery:corrupted_grass_top": {
+			"textures": "textures/blocks/corrupted_grass_top"
+		},
+		"mcevery:corrupted_grass_side": {
+			"textures": "textures/blocks/corrupted_grass_side"
+		},
+		"mcevery:corrupted_dirt": {
+			"textures": "textures/blocks/corrupted_grass_side"
+		}
+	}
+}

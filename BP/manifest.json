@@ -1,0 +1,62 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Minecraft Everything [BP]",
+    "description": "Everything inside Minecraft [BEHAVIOR PACK]",
+    "uuid": "66fd49d0-2c59-e1ae-237b-48609e0f9303",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "b3fb5af7-b378-ed8d-6684-eeb5a53b0141",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "uuid": "d8d18ad9-c26f-49c9-920b-d0c4ab8609bb",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "language": "javascript",
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "e70ec819-8451-2ca8-2f01-f138821ecda8",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+        "module_name": "@minecraft/server",
+        "version": "1.9.0"
+    }
+  ],
+  "metadata": {
+    "authors": ["Esdraslov"],
+    "url": "https://youtube.com/@Esdraslov",
+    "generated_with": {
+      "PolyPixel Manifest generator": ["1.0.0"],
+      "Blockbench": ["2.5.0"]
+    }
+  }
+}

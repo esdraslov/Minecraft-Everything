@@ -1,0 +1,21 @@
+{
+	"resource_pack_name": "mcevery",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"mcevery:saphire": {
+			"textures": "textures/items/saphire"
+		},
+		"mcevery:saphire_pickaxe": {
+			"textures": "textures/items/saphire_pickaxe"
+		},
+		"mcevery:saphire_star": {
+			"textures": "textures/items/saphire_star"
+		},
+		"mcevery:single_headed_wither_core": {
+			"textures": "textures/items/single_headed_wither_core"
+		},
+		"mcevery:saphire_sword": {
+			"textures": "textures/items/saphire_sword"
+		}
+	}
+}

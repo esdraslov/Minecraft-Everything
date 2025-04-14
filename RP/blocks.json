@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "mcevery:stone_saphire_ore": {
+    "textures": "mcevery:stone_saphire_ore"
+  },
+  "mcevery:corrupted_grass": {
+    "textures": {
+      "down": "mcevery:corrupted_grass_bottom",
+      "up": "mcevery:corrupted_grass_top",
+      "north": "mcevery:corrupted_grass_side",
+      "south": "mcevery:corrupted_grass_side",
+      "west": "mcevery:corrupted_grass_side",
+      "east": "mcevery:corrupted_grass_side"
+    }
+  }
+}

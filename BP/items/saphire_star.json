@@ -1,0 +1,27 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mcevery:saphire_star",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "mcevery:saphire_star",
+			"minecraft:display_name": {
+				"value": "item.esdraslov.mcevery.saphire_star.name"
+			},
+			"minecraft:custom_components": ["mcevery:saphirestaruse"],
+			"minecraft:cooldown": {
+				"duration": 3.5,
+				"category": "use"
+			},
+			"minecraft:use_modifier": {
+				"moviment_modifier": 1,
+				"use_duration": 0.05
+			}
+		}
+	}
+}

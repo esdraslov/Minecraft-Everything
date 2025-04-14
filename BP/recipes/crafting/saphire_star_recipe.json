@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mcevery:saphire_star_recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " X ",
+      "XCX",
+      " X "
+    ],
+    "key": {
+      "X": "mcevery:saphire",
+      "C": "mcevery:single_headed_wither_core"
+    },
+    "result": "mcevery:saphire_star",
+    "unlock": [
+      {
+        "item": "mcevery:saphire"
+      }
+    ]
+  }
+}

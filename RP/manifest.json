@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Minecraft Everything [RP]",
+    "description": "RESOURCES TO MINECRAFT EVERYTHING BEHAVIOUR PACK",
+    "uuid": "e70ec819-8451-2ca8-2f01-f138821ecda8",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "c4e78f60-a115-ea23-bfbd-b4b1edd40fd4",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "66fd49d0-2c59-e1ae-237b-48609e0f9303",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": ["Esdraslov"],
+    "url": "https://youtube.com/@Esdraslov",
+    "generated_with": {
+      "PolyPixel Manifest generator": ["1.0.0"],
+      "Blockbench": ["2.5.0"]
+    }
+  }
+}
