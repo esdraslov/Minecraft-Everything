@@ -12,5 +12,8 @@
       "west": "mcevery:corrupted_grass_side",
       "east": "mcevery:corrupted_grass_side"
     }
+  },
+  "mcevery:corrupted_dirt": {
+    "textures": "mcevery:corrupted_dirt"
   }
 }

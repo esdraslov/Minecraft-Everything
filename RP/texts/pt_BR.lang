@@ -3,3 +3,5 @@ tile.mcevery:stone_saphire_ore.name=Minerio de Safira
 item.esdraslov.mcevery.saphire_pickaxe.name=Picareta de Safira
 item.esdraslov.mcevery.saphire_star.name=§dEstrela de Safira
 item.esdraslov.mcevery.saphire_sword.name=Espada de safira
+tile.mcevery:corrupted_grass.name=§ki§rGrama Corrompida§ki§r
+tile.mcevery:corrupted_dirt.name=§ki§rTerra Corrompida§ki§r

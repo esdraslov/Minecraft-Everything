@@ -3,3 +3,5 @@ tile.mcevery:stone_saphire_ore.name=Saphire Ore
 item.esdraslov.mcevery.saphire_pickaxe.name=Saphire Pickaxe
 item.esdraslov.mcevery.saphire_star.name=§dSaphire Star
 item.esdraslov.mcevery.saphire_sword.name=Saphire Sword
+tile.mcevery:corrupted_grass.name=§ki§rCorrupted Grass§ki§r
+tile.mcevery:corrupted_dirt.name=§ki§rCorrupted Dirt§ki§r
