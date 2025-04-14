@@ -1,0 +1,36 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "overworld_corrupted_tree_feature",
+            "places_feature": "mcevery:corrupted_tree"
+        },
+        "conditions": {
+            "placement_pass": "underground_pass",
+            "minecraft:biome_filter": [
+                {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "corrupted"
+                        }
+                    ]
+                }
+            ]
+        },
+        "distribution": {
+            "iterations": 1,
+            "coordinate_eval_order": "zyx",
+            "x": {
+                "distribution": "uniform",
+                "extent": [0, 16]
+            },
+            "y": "q.heightmap(v.worldx, v.worldz)",
+            "z": {
+                "distribution": "uniform",
+                "extent": [0, 16]
+            }
+        }
+    }
+}

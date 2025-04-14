@@ -1,0 +1,29 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:tree_feature": {
+        "description": {
+            "identifier": "mcevery:corrupted_tree"
+        },
+
+        "base_block": ["mcevery:corrupted_dirt"],
+        "base_cluster": {
+            "num_clusters": 4,
+            "cluster_radius": 3,
+            "may_replace": ["minecraft:air"]
+        },
+
+        "may_replace": ["minecraft:air"],
+
+        "fancy_trunk": {
+            "trunk_block": "minecraft:oak_log",
+
+            "trunk_height": {
+                "base": 24,
+                "variance": 9,
+                "scale": 1
+            },
+            "trunk_width": 3,
+            "width_scale": 2
+        }
+    }
+}
