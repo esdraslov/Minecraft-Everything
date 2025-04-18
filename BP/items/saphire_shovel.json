@@ -24,7 +24,8 @@
 						"speed": 6
 					}
 				]
-			}
+			},
+			"minecraft:max_stack_size": 1
 		}
 	}
 }
