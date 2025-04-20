@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mcevery:saphire_shovel_recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X",
+      "I",
+      "I"
+    ],
+    "key": {
+      "X": "mcevery:saphire",
+      "I": "minecraft:stick"
+    },
+    "result": "mcevery:saphire_shovel",
+    "unlock": [
+      {
+        "item": "mcevery:saphire"
+      }
+    ]
+  }
+}
