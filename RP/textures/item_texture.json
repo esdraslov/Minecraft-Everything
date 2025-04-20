@@ -16,6 +16,12 @@
 		},
 		"mcevery:saphire_sword": {
 			"textures": "textures/items/saphire_sword"
+		},
+		"mcevery:saphire_shovel": {
+			"textures": "textures/items/saphire_shovel"
+		},
+		"mcevery:saphire_axe": {
+			"textures": "textures/items/saphire_axe"
 		}
 	}
 }
